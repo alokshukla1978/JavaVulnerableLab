@@ -20,7 +20,7 @@ jobs:
         # Artifact name
         name: JavaVulnerableLab.war
         # Directory containing files to upload
-        path: target/servlettarpit.war
+        path: target/JavaVulnerableLab.war
   shiftleft-code-analysis:
     runs-on: ubuntu-latest
     needs: build-code
